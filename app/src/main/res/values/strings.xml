@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WorkingWithData</string>
+    <string name="element_text">test</string>
+    <string name="sharedpref_amp_rw_files"><![CDATA[SharedPref & RW Files]]></string>
+    <string name="date_format_hint">YYYY-MM-DD</string>
+    <string name="start">Start</string>
+    <string name="date">Date</string>
+    <string name="count_edit_text_hint">Number Of Random Images</string>
+    <string name="count_or_text">OR</string>
+    <string name="date_text">Date</string>
+    <string name="range_checkbox_label">Range?</string>
+    <string name="end_text">End</string>
+    <string name="search_button_text">Search</string>
+    <string name="clear_button_text">Clear</string>
+</resources>
