@@ -32,7 +32,7 @@ class MainMenu : AppCompatActivity() {
         }
         var apiResultButton = findViewById<Button>(R.id.New_View_Button)
         apiResultButton.setOnClickListener{
-            var intent = Intent(this, DataDisplayer::class.java)
+            var intent = Intent(this, DataDisplay::class.java)
             startActivity(intent)
         }
     }

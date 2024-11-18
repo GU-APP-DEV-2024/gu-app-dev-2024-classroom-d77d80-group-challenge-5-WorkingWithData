@@ -14,6 +14,8 @@
     <string name="clear_button_text">Clear</string>
     <string name="API_Results">API RESULTS: </string>
     <string name="NASA">NASA:</string>
-    <string name="api_results">API RESULTS: </string>
-
+    <string name="title">API RESULTS</string>
+    <string name="camera">Camera: </string>
+    <string name="page">Page: </string>
+    <string name="api_key">API Key: </string>
 </resources>
