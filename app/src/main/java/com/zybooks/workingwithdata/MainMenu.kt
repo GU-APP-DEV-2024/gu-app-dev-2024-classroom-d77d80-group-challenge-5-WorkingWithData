@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.zybooks.workingwithdata.DataDisplayer
 
 class MainMenu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +28,11 @@ class MainMenu : AppCompatActivity() {
         var nasaButton = findViewById<Button>(R.id.nasaButton)
         nasaButton.setOnClickListener {
             var intent = Intent(this, NasaAPI::class.java)
+            startActivity(intent)
+        }
+        var apiResultButton = findViewById<Button>(R.id.New_View_Button)
+        apiResultButton.setOnClickListener{
+            var intent = Intent(this, DataDisplayer::class.java)
             startActivity(intent)
         }
     }

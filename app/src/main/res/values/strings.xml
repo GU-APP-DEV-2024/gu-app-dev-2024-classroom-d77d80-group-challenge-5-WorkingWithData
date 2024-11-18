@@ -13,4 +13,7 @@
     <string name="search_button_text">Search</string>
     <string name="clear_button_text">Clear</string>
     <string name="API_Results">API RESULTS: </string>
+    <string name="NASA">NASA:</string>
+    <string name="api_results">API RESULTS: </string>
+
 </resources>
